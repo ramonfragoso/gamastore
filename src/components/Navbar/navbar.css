@@ -1,0 +1,41 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #742ab5;
+    width: 100%;
+}
+
+.searchbar {
+    padding: 20px;
+    background-color: #571693;
+    border: none;
+    color: white;
+    font-size: medium;
+    font-weight: 800;
+    width: 100%;
+}
+
+.searchbar:focus{
+    color: white;
+    font-weight: 800;
+    font-size: medium;
+    outline: none;
+}
+
+.logo {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    width: 20%;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 0px 0px 0px 0px;
+}
+
+.options {
+    width: 100%;
+}
