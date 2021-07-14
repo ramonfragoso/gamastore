@@ -1,13 +1,12 @@
 import React from 'react'
-import { Navbar } from '../../components'
-import './home.css'
+import { Content, Navbar } from '../../components'
+import { StyledHome } from './styles'
 
 export const Home: React.FC  = () => {
     return (
-        <div className='root'>
+        <StyledHome>
             <Navbar/>
-            <div className='title'>BLACK FRIDAY</div>
-            <div className='subtitle'>É NA GAMA STORE</div>
-        </div>
+            <Content/>
+        </StyledHome>
     )
 }
