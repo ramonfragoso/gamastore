@@ -5,12 +5,9 @@ import teclado from '../../assets/teclado.png'
 import cadeira from '../../assets/cadeira.png'
 import headphone from '../../assets/headphone.png'
 import { useMemo } from 'react'
-import { useModal } from '../../hooks/useModal'
-
 
 export const Content: React.FC  = () => {
 
-    // const [showPromotion, setShowPromotion] = useModal()
     const [currentPromotion, setCurrentPromotion] = useState('')
 
     const images = useMemo(() => {
