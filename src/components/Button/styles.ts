@@ -1,12 +1,13 @@
 import styled from "styled-components";
 
 export const Container = styled.button`
+    font-family: 'Lato', sans-serif;
     padding: 11px 25px;
     background-color: #8C52E5;
     border: none;
     border-radius: 30px;
     color: white;
-    font-size: medium;
+    font-size: large;
     letter-spacing: 1px;
     transition: ease-in-out .2s;
     cursor: pointer;

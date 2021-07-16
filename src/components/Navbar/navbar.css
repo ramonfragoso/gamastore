@@ -4,7 +4,7 @@
     justify-content: space-between;
     width: 100%;
     background: rgb(75,17,129);
-    background: linear-gradient(180deg, rgba(75,17,129,0.4430147058823529) 0%, rgba(24,25,26,1) 100%);
+    background: linear-gradient(180deg, rgba(75,17,129,0.2) 0%, transparent 100%);
 }
 
 .searchbar {

@@ -1,7 +1,11 @@
 import React from 'react'
 import { Container } from './styles'
 
-export const Button: React.FC  = ({ children }) => {
+type ButtonProps = {
+    type: string
+}
+
+export const Button: React.FC<ButtonProps>  = ({ children }) => {
     return (
         <Container>
             {children}
