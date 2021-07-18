@@ -1,5 +1,5 @@
 import React from "react";
-import './navbarbutton.css';
+import { Button, Icon } from "./styles";
 
 type NavbarButtonProps = {
     label: string,
@@ -8,9 +8,9 @@ type NavbarButtonProps = {
 
 export const NavbarButton: React.FC<NavbarButtonProps> = ({icon, label}) => {
     return (
-        <button className='button'>
-            <div className='icon'>{icon}</div>
-            <div className='label'>{label}</div>
-        </button>
+        <Button>
+            <Icon>{icon}</Icon>
+            <Icon>{label}</Icon>
+        </Button>
     )
 }
